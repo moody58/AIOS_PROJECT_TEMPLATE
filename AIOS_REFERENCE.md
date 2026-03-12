@@ -1,46 +1,15 @@
-\# AIOS Project Reference
-
-
+# AIOS Project Reference
 
 Questo progetto è stato creato utilizzando il template universale AIOS.
 
+## Architettura del sistema
 
+AIOS governa il metasistema dei progetti. I progetti operano in modo
+autonomo ma restano collegati ad AIOS tramite le rispettive Regie.
 
-Metodo AIOS:
+Schema architetturale:
 
-https://github.com/<tuo-username>/AIOS\_CORE
+AIOS (governance e metodo) ↓ PROGETTO (sviluppo operativo) ↓ LOGOS
+(raccolta e analisi dati)
 
-
-
-Motore dati (LOGOS):
-
-https://github.com/<tuo-username>/LOGOS\_ENGINE
-
-
-
-Struttura del progetto:
-
-
-
-00\_FONDAMENTA\_PROGETTO
-
-→ regia del progetto
-
-→ stato progetto
-
-→ system map
-
-
-
-98\_SISTEMA\_TECNICO
-
-→ protocolli
-
-→ anchor system
-
-→ radar evolutivo
-
-
-
-Le cartelle operative (01, 02, 03…) sono personalizzabili in base al progetto.
-
+AIOS e i progetti comunicano tramite aggiornamento delle Regie.
