@@ -1,50 +1,172 @@
 PROJECT — Kernel Manifest
 
-Versione 1.0
+
+
+Scopo del documento
 
 
 
-Scopo
+Il Kernel Manifest dichiara l’architettura del progetto e la sua
 
-Questo documento dichiara il runtime del progetto e la sua integrazione
-
-con il metasistema AIOS.
+integrazione con il metasistema AIOS.
 
 
 
-Architettura del sistema
+Il documento ha funzione dichiarativa.
 
 
 
-AIOS\_RUNTIME
+Serve a permettere al sistema di comprendere:
+
+
+
+• la struttura del progetto  
+
+• i componenti fondamentali del sistema  
+
+• la relazione con AIOS  
+
+• la gerarchia dei protocolli operativi
+
+
+
+
+
+Architettura del metasistema
+
+
+
+AIOS rappresenta il metasistema che governa il metodo
+
+e coordina i progetti.
+
+
+
+Il progetto rappresenta un’istanza operativa autonoma
+
+del metasistema.
+
+
+
+Relazione architetturale:
+
+
+
+AIOS
 
 ↓
 
-PROJECT\_PROTOCOL
+PROJECT
 
 ↓
 
-PROJECT\_INSTANCE\_PROTOCOL
+MACROAREE OPERATIVE
 
 ↓
 
-PROJECT\_STATE
+SESSIONI OPERATIVE
 
 ↓
 
-Documenti operativi
+DOCUMENTI
 
 
 
-Runtime dichiarato
+
+
+Kernel documentale del progetto
 
 
 
-Metasistema: AIOS
+Il kernel del progetto è costituito dai documenti
 
-Template di origine: AIOS Universal Project Template
+fondamentali che permettono al sistema di ricostruire
 
-Istanza progetto: definita dal nome repository
+lo stato e la struttura del progetto.
+
+
+
+Documenti kernel:
+
+
+
+00\_PROJECT\_Regia  
+
+00\_PROJECT\_State  
+
+00\_PROJECT\_System\_Map  
+
+00\_PROJECT\_KERNEL\_MANIFEST
+
+
+
+
+
+Runtime conversazionale
+
+
+
+Il comportamento delle chat del progetto è governato
+
+dal runtime conversazionale.
+
+
+
+Documenti runtime:
+
+
+
+PROJECT\_RUNTIME\_INSTRUCTIONS  
+
+98\_PROJECT\_RUNTIME
+
+
+
+
+
+Metodo operativo
+
+
+
+Il metodo operativo del progetto è definito dal
+
+protocollo principale e dal sistema di anchor.
+
+
+
+Documenti metodo:
+
+
+
+98\_PROJECT\_PROTOCOL  
+
+98\_PROJECT\_Anchor\_System
+
+
+
+
+
+Protocol Layer
+
+
+
+Il sistema utilizza protocolli tecnici modulari.
+
+
+
+Protocolli attivi:
+
+
+
+98\_PROJECT\_CQD\_Protocol  
+
+98\_PROJECT\_STP\_Protocol  
+
+98\_PROJECT\_Sistema\_Fonti  
+
+98\_PROJECT\_Incident\_Management
+
+
 
 
 
@@ -52,25 +174,23 @@ Funzione del Kernel Manifest
 
 
 
-Il Kernel Manifest permette al sistema AIOS di:
+Il Kernel Manifest permette al sistema di:
 
 
 
-• identificare il progetto
+• identificare il progetto  
 
-• stabilire la gerarchia dei protocolli
+• stabilire la gerarchia dei protocolli  
 
-• evitare conflitti tra sistema e progetto
+• evitare conflitti tra sistema e progetto  
 
-• mantenere coerenza tra metasistema e istanza
-
-
-
-Nota
+• mantenere coerenza tra metasistema e istanza  
 
 
 
-Questo documento ha funzione dichiarativa e non sostituisce
+Questo documento non sostituisce i protocolli
 
-i protocolli operativi del progetto.
+operativi del progetto ma ne dichiara l’architettura.
+
+
 
