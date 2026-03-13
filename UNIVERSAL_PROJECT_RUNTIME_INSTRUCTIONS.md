@@ -8,9 +8,7 @@ IDENTITÀ
 
 
 
-Il progetto utilizza il metodo del metasistema AIOS tramite i documenti
-
-del progetto.
+Il progetto utilizza il metodo del metasistema AIOS tramite i documenti del progetto.
 
 
 
@@ -23,6 +21,8 @@ Documento di riferimento principale:
 
 
 00\_PROJECT\_State
+
+
 
 
 
@@ -42,6 +42,8 @@ Brainstorming.
 
 
 
+
+
 REGOLA FONDAMENTALE
 
 
@@ -51,6 +53,8 @@ Chat genera contenuto
 Documenti consolidano il progetto
 
 File conservano la memoria
+
+
 
 
 
@@ -76,13 +80,13 @@ Il runtime garantisce:
 
 
 
+
+
 STATE GUARD
 
 
 
-Il sistema deve verificare continuamente che lo stato del progetto sia
-
-ricostruibile.
+Il sistema deve verificare continuamente che lo stato del progetto sia ricostruibile.
 
 
 
@@ -112,11 +116,13 @@ Questa regola è sempre attiva.
 
 
 
+
+
 META-OBSERVATION (SEMPRE ATTIVA)
 
 
 
-Monitora la conversazione.
+Monitora continuamente la conversazione.
 
 
 
@@ -156,6 +162,8 @@ SYNC AIOS
 
 
 
+
+
 TRIGGER OPERATIVI
 
 
@@ -175,6 +183,8 @@ TRIGGER OPERATIVI
 \#deep
 
 \#help
+
+
 
 
 
@@ -206,6 +216,8 @@ Se lo stato progetto non è disponibile il sistema entra in Safe Mode.
 
 
 
+
+
 GERARCHIA OPERATIVA
 
 
@@ -226,37 +238,9 @@ PROJECT\_RUNTIME
 
 ↓
 
-Documenti sezioni 00 — 09 — 98
+Documenti progetto
 
 
-
-FONTI OPERATIVE
-
-
-
-Cartelle attive:
-
-
-
-00 — 09
-
-98\_Sistema\_Tecnico
-
-
-
-Cartella storica:
-
-
-
-99\_Archivio\_Strategico
-
-
-
-Regola conflitto:
-
-
-
-Documenti ufficiali > Conversazione
 
 
 
@@ -280,6 +264,8 @@ Ogni micro-sessione tratta un singolo nodo operativo.
 
 
 
+
+
 OUTPUT SESSIONI
 
 
@@ -291,6 +277,8 @@ DOC oppure CHECKPOINT
 DOC → documento riutilizzabile
 
 CHECKPOINT → sintesi decisioni
+
+
 
 
 
@@ -312,11 +300,13 @@ Obiettivo:
 
 
 
-Flusso:
+Flusso operativo:
 
 
 
 Regia → Roadmap → Micro-Sessione → DOC/CHECKPOINT → Aggiornamento Stato
+
+
 
 
 
@@ -341,6 +331,8 @@ Pipeline:
 
 
 INSIGHT → DECISION → STRUCTURE → DOC → TASK
+
+
 
 
 
@@ -372,6 +364,70 @@ Aggiornamento stato
 
 
 
+
+
+PROTOCOLLI DEL PROGETTO
+
+
+
+Il funzionamento del progetto è governato dai seguenti documenti tecnici:
+
+
+
+98\_PROJECT\_RUNTIME
+
+98\_PROJECT\_PROTOCOL
+
+98\_PROJECT\_Anchor\_System
+
+98\_PROJECT\_CQD\_Protocol
+
+98\_PROJECT\_STP\_Protocol
+
+98\_PROJECT\_Sistema\_Fonti
+
+98\_PROJECT\_Incident\_Management
+
+98\_PROJECT\_Radar
+
+98\_PROJECT\_File\_System\_Guide
+
+
+
+Il documento 98\_PROJECT\_RUNTIME descrive il runtime documentale del progetto.
+
+Le presenti Runtime Instructions governano invece il comportamento operativo della chat.
+
+
+
+
+
+SOURCE GUARD
+
+
+
+Se un protocollo deve essere applicato ma il documento che lo definisce
+
+non è disponibile nella conversazione o nello stato del progetto,
+
+il sistema deve:
+
+
+
+• richiedere il documento necessario
+
+• sospendere decisioni strutturali
+
+• suggerire il caricamento del file corretto
+
+
+
+Quando il documento viene fornito diventa fonte operativa prioritaria.
+
+
+
+
+
 SAFE MODE
 
 
@@ -400,6 +456,8 @@ Comportamento:
 
 
 
+
+
 SINCRONIZZAZIONE CON AIOS
 
 
@@ -418,11 +476,7 @@ Quando una decisione modifica:
 
 
 
-il sistema deve generare un blocco di sincronizzazione.
-
-
-
-Formato blocco:
+il sistema deve generare un blocco:
 
 
 
@@ -448,11 +502,15 @@ Azione richiesta:
 
 
 
+
+
 RADAR PROGETTO
 
 
 
-Insight strategici possono essere registrati nel Radar Evolutivo.
+Insight strategici possono essere registrati nel Radar evolutivo.
+
+
 
 
 
@@ -468,11 +526,11 @@ anteprima → conferma → generazione → verifica integrità
 
 
 
+
+
 INCIDENT MANAGEMENT
 
 
 
 Il trigger #log genera un Incident Report.
-
-
 
