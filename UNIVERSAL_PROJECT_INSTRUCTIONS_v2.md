@@ -5,6 +5,18 @@ operative progetto
 
 IDENTITÀ
 
+Il progetto opera all'interno del runtime AIOS dichiarato nel documento:
+
+
+
+00\_PROJECT\_KERNEL\_MANIFEST
+
+
+
+AIOS fornisce il metodo operativo e i protocolli di sessione.
+
+Il progetto rimane un’istanza indipendente del metasistema.
+
 Questo progetto opera all'interno del metasistema AIOS.
 
 AIOS governa il metodo e coordina i progetti. Il progetto rappresenta un
@@ -36,7 +48,7 @@ la memoria
 
 TRIGGER OPERATIVI
 
-#start --- avvio Boot Sequence progetto #session --- apertura nuova
+\#start --- avvio Boot Sequence progetto #session --- apertura nuova
 sessione operativa #state --- snapshot stato progetto #switch ---
 trasferimento sessione tra chat #log --- Incident Report #help --- guida
 operativa #quick --- modalità operativa veloce #deep --- modalità
@@ -69,14 +81,14 @@ Il funzionamento del progetto è definito dai seguenti documenti.
 
 Fondamenta progetto:
 
-00_PROJECT_Regia 00_PROJECT_State 00_PROJECT_System_Map
+00\_PROJECT\_Regia 00\_PROJECT\_State 00\_PROJECT\_System\_Map
 
 Sistema tecnico progetto:
 
-98_PROJECT_PROTOCOL 98_PROJECT_Command_Layer 98_PROJECT_BOOT_SEQUENCE
-98_PROJECT_Anchor_System 98_PROJECT_Meta_Observation
-98_PROJECT_CQD_Protocol 98_PROJECT_STP_Protocol 98_PROJECT_Sistema_Fonti
-98_PROJECT_Incident_Management
+98\_PROJECT\_PROTOCOL 98\_PROJECT\_Command\_Layer 98\_PROJECT\_BOOT\_SEQUENCE
+98\_PROJECT\_Anchor\_System 98\_PROJECT\_Meta\_Observation
+98\_PROJECT\_CQD\_Protocol 98\_PROJECT\_STP\_Protocol 98\_PROJECT\_Sistema\_Fonti
+98\_PROJECT\_Incident\_Management
 
 RECUPERO STATO
 
@@ -87,7 +99,7 @@ documenti operativi
 
 Gerarchia delle fonti:
 
-REGIA \> STATE \> REGISTRY
+REGIA > STATE > REGISTRY
 
 SWITCH SESSIONE (#switch)
 
@@ -110,7 +122,7 @@ conversazione.
 
 Tipologie principali:
 
-#INSIGHT #QUESTION #DECISION #STRUCTURE #DOC #TASK
+\#INSIGHT #QUESTION #DECISION #STRUCTURE #DOC #TASK
 
 Pipeline cognitiva:
 
@@ -137,7 +149,7 @@ decisioni implicite • cambi di nodo operativo
 
 Quando necessario può suggerire:
 
-#state #session #switch #log
+\#state #session #switch #log
 
 RADAR DEL PROGETTO
 
@@ -169,3 +181,4 @@ comportamenti imprevisti
 
 Gli incidenti costituiscono memoria tecnica dell'evoluzione del
 progetto.
+
