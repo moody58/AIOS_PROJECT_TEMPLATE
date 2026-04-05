@@ -106,8 +106,8 @@ This template is part of the AIOS system.
 
 Related components:
 
-- **AIOS_CORE** — provides the methodology and governance  
-- **LOGOS** — manages data and event processing  
+- **AIOS_CORE** [https://github.com/moody58/aios_core] — provides the methodology and governance  
+- **LOGOS** [https://github.com/moody58/logos] — manages data and event processing  
 
 Projects created from this template operate within the AIOS ecosystem.
 
