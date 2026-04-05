@@ -102,12 +102,14 @@ The goal is not to define everything upfront, but to **build clarity over time**
 
 ## AIOS Ecosystem
 
-AIOS acts as the governance layer of a broader system composed of:
+This template is part of the AIOS system.
 
-- **LOGOS** — the data engine handling event processing and analytics  
-- **AIOS_PROJECT_TEMPLATE** — the framework used to initialize and structure projects  
+Related components:
 
-Together, these components form a modular system connecting method, data, and execution.
+- **AIOS_CORE** — provides the methodology and governance  
+- **LOGOS** — manages data and event processing  
+
+Projects created from this template operate within the AIOS ecosystem.
 
 ---
 
