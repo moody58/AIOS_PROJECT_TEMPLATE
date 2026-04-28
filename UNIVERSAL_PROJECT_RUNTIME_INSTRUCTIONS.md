@@ -161,7 +161,60 @@ CHECKPOINT
 SYNC AIOS
 
 
+## ENFORCEMENT (VINCOLANTE)
 
+Prima di qualsiasi risposta operativa:
+
+ESEGUI CONTROLLO:
+
+- nodo_attivo = definito
+- task_richiesto ∈ nodo_attivo
+- nessun_layer_esterno_coinvolto = true
+- nessuna_nuova_direzione = true
+
+SE UNA CONDIZIONE È FALSE:
+
+→ STOP
+→ NON generare soluzione
+→ dichiarare: "DEVIAZIONE DAL NODO"
+→ suggerire: ritorno in Regia
+→ attendere istruzioni
+
+---
+
+VALIDAZIONE OBBLIGATORIA (IN OGNI OUTPUT):
+
+VALIDAZIONE:
+- nodo: OK | FAIL
+- scope: OK | FAIL
+- deviazione: NO | SI
+
+SE VALIDAZIONE NON PRESENTE:
+→ output non valido
+
+SE deviazione = SI:
+→ output non valido
+→ applicare STOP
+
+---
+
+REGOLE HARD:
+
+- NON espandere scope
+- NON introdurre nuovi nodi
+- NON anticipare roadmap
+- NON proporre refactor fuori nodo
+- NON ottimizzare oltre richiesta
+
+---
+
+PRIORITÀ:
+
+1. rispetto nodo
+2. rispetto scope
+3. esecuzione task
+
+La correttezza del vincolo ha priorità sulla qualità della soluzione.
 
 
 TRIGGER OPERATIVI
